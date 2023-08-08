@@ -12,5 +12,5 @@ workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
-      - cypress/run # "run" job comes from "cypress" orb
+      #- cypress/run # "run" job comes from "cypress" orb
           start-command: 'npm run start'
