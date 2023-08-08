@@ -4,11 +4,6 @@
   "description": "sample",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run",
-    "firefox": "npm run test -- --browser firefox",
-    "chrome": "npm run test -- --browser chrome",
-    "PatronHouseTests": "npm run test -- --spec \"cypress/Integration/Patrons_House/*\"",
-    "CypressOpen": "cypress open"
   },
   "author": "nagendra",
   "license": "ISC",
