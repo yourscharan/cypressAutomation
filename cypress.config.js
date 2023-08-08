@@ -16,7 +16,7 @@ module.exports = defineConfig({
   env: {
     development: "",
     username: "",
-    password: ""
+    password: "abcd"
   },
   retries: {
     openMode: 0
