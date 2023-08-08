@@ -8,13 +8,7 @@
     "firefox": "npm run test -- --browser firefox",
     "chrome": "npm run test -- --browser chrome",
     "PatronHouseTests": "npm run test -- --spec \"cypress/Integration/Patrons_House/*\"",
-    "recordDashboard": "npm run test -- --record --key 3f662b5c-153f-408a-971b-9dc7e4ea51a7 --reporter mochawesome",
-    "CypressOpen": "cypress open",
-    "clean:reports": "if exist cypress\\reports rmdir /q /s cypress\\reports && mkdir cypress\\reports && mkdir cypress\\reports\\mochawesome-report",
-    "pretest": "npm run clean:reports",
-    "merge-report": "mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/AutomationReport.json",
-    "generate-report": "marge cypress/reports/AutomationReport.json --reportDir ./ --inline",
-    "after:tests": "npm run merge-report && npm run generate-report"
+    "CypressOpen": "cypress open"
   },
   "author": "nagendra",
   "license": "ISC",
