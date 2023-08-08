@@ -4,6 +4,7 @@
   "description": "sample",
   "main": "index.js",
   "scripts": {
+    "test": "npm run"
   },
   "author": "nagendra",
   "license": "ISC",
